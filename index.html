@@ -4,44 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
 
-        *{
-            margin: 0 auto;
-            /* padding-bottom: 20px; */  
-        }
-        header{
-            display: flex;
-            justify-content: center;
-        }
-        body{
-            padding-top: 40px;
-            padding-left: 70px;
-        }
-        h1{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
-            margin: 60px;
-            text-align: center;
-            color: green;
-        }
-        p{
-            text-align: center;
-        }
-        #contact{
-            text-decoration: none;
-            text-align: center;
-        }
+       
         </style>
     
    
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="/skills.html">Skills</a></li>
-        </ul>
+        <nav>
+            <!-- LOGO  -->
+            <div class="logo"><a href="/portfolio_website/index.html">HOME</a></div>
+            <!-- Navigation  -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/portfolio_website/projects.html">Projects</a></li>
+                <li><a href="/portfolio_website/skills.html">Skills</a></li>
+                <li><a href="/portfolio_website/contact.html">Contact</a></li>
+            </ul>
+            <!-- Search box  -->
+            <div class="search-field">
+                <input type="text" placeholder="search">
+                <button>Search</button>
+            </div>
+        </nav>
     </header>
+
     <h1>My introduction</h1>
     <p>My name is Muhammad shah.I am a computer science student and Now I am working as 
         web development with <b>SMIT</b> 
