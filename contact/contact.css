@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(to left, purple, green);
+     font-size: larger;
+  }
+  .mainDiv{
+    display: flex;
+    align-items: flex-start;
+    /* border:4px solid red; */
+  }
+  .firstDiv{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  .secondDiv{
+  /* border: 2px solid blue; */
+  flex: 4.5;
+  }
+  .firstDiv-p{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .firstDiv-choise{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  .para{
+    margin-left: 5px;
+  }
+  .fullName{
+     /* border: 2px solid blue; */
+     display: flex;
+     flex: 4.5;
+     justify-content: space-between;
+    }
+  
+  form {
+    background-color: #fff;
+    width: 40%;
+    height: 90%;
+    padding: 3% 4%;
+    padding-bottom: 60px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+  }
+  h1 {
+    background-color: #000;
+    width: 48%;
+    margin: 0 auto;
+    position: relative;
+    /* left: 24%; */
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: auto;
+  }
+  .firstName,
+  .lastName {
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(255, 209, 217);
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  .firstName-div{
+    width: 40%;
+    /* border: 3px solid blueviolet; */
+  }
+  .div-text{
+    margin-left: 9px;
+    color: rgb(144, 140, 140);
+  }
+  .firstName:focus,
+  .lastName:focus {
+    border: none;
+    outline: none;
+  }
+  .firstName {
+    /* margin: 34px 20px 10px 45px; */
+  }
+  .lastName {
+    /* margin: 34px 20px 10px; */
+  }
+  .label {
+    margin-top: 6px;
+    /* justify-content: flex-end; */
+  }
+  .all {
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(255, 209, 217);
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  .all:focus{
+    border: none;
+    outline: none;
+  }
+  .codeArea, .optionArea{
+    font-size: 17px;
+    width: 26%;
+    background-color: rgb(255, 209, 217);
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 35px;
+  }
+  .codeArea:focus,
+  .optionArea:focus {
+    border: none;
+    outline: none;
+  }
+  .optionArea{
+    width: 100%;
+  }
+  .number_place{
+    display: flex;
+  
+  }
+  .choise{
+    margin-left: 20px;
+  }
+  button{
+    background-color: red;
+    color:white;
+    padding: 12px 23px;
+    border: 1px solid red;
+    border-radius: 6px;
+    outline: none;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 48px;
+  }
