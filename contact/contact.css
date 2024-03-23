@@ -1,3 +1,81 @@
+body{
+  background-color: #edf1fd;
+}
+/* start */
+li{
+cursor: pointer;
+}
+nav li a{
+
+list-style: none;
+}
+a{
+text-decoration:none ;
+}
+.btn{
+background-color: blueviolet;
+padding-right: 45px;
+}
+button{
+background-color: rgb(18, 155, 155);
+padding: 4px 10px;
+cursor: pointer;
+color: white;
+border: 1px solid white;
+border-radius: 5px;
+font-weight: 600;
+width: fit-content;
+
+}
+button:hover{
+background-color: white;
+color: black;
+border: 1px solid black;
+}
+nav{
+display: flex;
+width: 100%;
+color: rgb(0, 0, 0);
+background: linear-gradient(rgba(188, 228, 228, 0.4),rgb(112, 139, 108,.2));
+align-items: center;
+border-radius: 14px;
+justify-content: space-around;
+
+}
+
+nav .logo{
+font-weight: 700;
+font-size: 30px;
+}
+
+nav ul{
+display: flex;
+align-items: center;
+gap: 30px;
+font-weight: 500;
+}
+nav li{
+list-style: none;
+}
+nav li a{
+text-decoration: none;
+}
+nav ul li:hover{
+text-decoration: none;
+font-weight: 900;
+color: blueviolet;
+}
+.search-field{
+display: flex;
+gap: 35px;
+}
+.input-search{
+padding-left: 24%;
+border-radius: 4pxpx;
+}
+
+
+/* ENd */
 body {
     background: linear-gradient(to left, purple, green);
      font-size: larger;
@@ -128,7 +206,7 @@ body {
   .choise{
     margin-left: 20px;
   }
-  button{
+  #btn{
     background-color: red;
     color:white;
     padding: 12px 23px;
